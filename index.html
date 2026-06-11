@@ -1,0 +1,197 @@
+<!DOCTYPE html><html class="dark" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Sneha Yadav | Web Developer</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700;800&amp;family=Inter:wght@400;500;600&amp;family=Geist:wght@500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-primary-fixed-variant": "#003ea8",
+                        "tertiary-fixed": "#c9e6ff",
+                        "secondary-container": "#7c03d3",
+                        "secondary-fixed-dim": "#ddb8ff",
+                        "surface-tint": "#b4c5ff",
+                        "tertiary-container": "#0074a6",
+                        "background": "#0d1322",
+                        "on-tertiary-container": "#e4f2ff",
+                        "error": "#ffb4ab",
+                        "on-error": "#690005",
+                        "primary": "#b4c5ff",
+                        "secondary": "#ddb8ff",
+                        "on-surface-variant": "#c3c6d7",
+                        "surface": "#0d1322",
+                        "primary-fixed": "#dbe1ff",
+                        "on-primary": "#002a78",
+                        "on-primary-container": "#eeefff",
+                        "on-secondary-fixed": "#2c0051",
+                        "surface-container-high": "#242a3a",
+                        "inverse-on-surface": "#2a3040",
+                        "on-tertiary-fixed-variant": "#004c6e",
+                        "on-surface": "#dde2f8",
+                        "outline": "#8d90a0",
+                        "tertiary": "#89ceff",
+                        "surface-container-low": "#151b2b",
+                        "on-secondary-fixed-variant": "#6800b4",
+                        "surface-container": "#191f2f",
+                        "surface-variant": "#2f3445",
+                        "surface-container-highest": "#2f3445",
+                        "inverse-surface": "#dde2f8",
+                        "on-background": "#dde2f8",
+                        "tertiary-fixed-dim": "#89ceff",
+                        "surface-container-lowest": "#080e1d",
+                        "outline-variant": "#434655",
+                        "primary-fixed-dim": "#b4c5ff",
+                        "on-secondary": "#490080",
+                        "surface-bright": "#33394a",
+                        "surface-dim": "#0d1322",
+                        "on-secondary-container": "#dfbcff",
+                        "on-primary-fixed": "#00174b",
+                        "on-tertiary-fixed": "#001e2f",
+                        "error-container": "#93000a",
+                        "secondary-fixed": "#f0dbff",
+                        "on-tertiary": "#00344d",
+                        "on-error-container": "#ffdad6",
+                        "inverse-primary": "#0053db",
+                        "primary-container": "#2563eb"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-mobile": "16px",
+                        "gutter": "24px",
+                        "section-gap": "120px",
+                        "container-max-width": "1280px",
+                        "base": "8px",
+                        "margin-desktop": "64px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Hanken Grotesk"],
+                        "headline-xl": ["Hanken Grotesk"],
+                        "label-sm": ["Geist"],
+                        "headline-lg": ["Hanken Grotesk"],
+                        "body-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["32px", {"lineHeight": "40px", "fontWeight": "700"}],
+                        "headline-xl": ["64px", {"lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                        "label-sm": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "headline-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                        "body-md": ["18px", {"lineHeight": "28px", "fontWeight": "400"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .gradient-text {
+            background: linear-gradient(90deg, #b4c5ff 0%, #ddb8ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+        .gradient-bg {
+            background: linear-gradient(90deg, #2563eb 0%, #7c03d3 100%);
+        }
+        .glow-effect:hover {
+            box-shadow: 0 0 20px rgba(180, 197, 255, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background antialiased min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 backdrop-blur-md bg-background/80 dark:bg-background/80 border-b border-white/10 shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 max-w-container-max-width mx-auto">
+<a class="text-headline-lg font-headline-lg font-bold text-primary dark:text-primary-fixed-dim gradient-text" href="#">Sneha Yadav</a>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-primary dark:text-primary-fixed-dim border-b-2 border-primary pb-1 font-bold font-label-sm text-label-sm" href="index.html">Home</a>
+<a class="text-on-surface-variant dark:text-on-surface hover:text-primary transition-colors duration-200 font-label-sm text-label-sm" href="about.html">About</a>
+<a class="text-on-surface-variant dark:text-on-surface hover:text-primary transition-colors duration-200 font-label-sm text-label-sm" href="skills.html">Skills</a>
+<a class="text-on-surface-variant dark:text-on-surface hover:text-primary transition-colors duration-200 font-label-sm text-label-sm" href="project.html">Projects</a>
+<a class="text-on-surface-variant dark:text-on-surface hover:text-primary transition-colors duration-200 font-label-sm text-label-sm" href="contact.html">Contact</a>
+</div>
+<!-- Mobile Menu Button (Placeholder) -->
+<button class="md:hidden text-on-surface-variant hover:text-primary transition-colors duration-200">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">menu</span>
+</button>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="flex-grow pt-[100px] pb-section-gap">
+<div class="max-w-container-max-width mx-auto px-margin-mobile md:px-margin-desktop">
+<!-- Hero Section -->
+<section class="flex flex-col-reverse md:flex-row items-center justify-between py-12 md:py-24 gap-12 md:gap-8">
+<!-- Text Content -->
+<div class="w-full md:w-1/2 flex flex-col items-start gap-6 z-10">
+<div class="space-y-4">
+<h1 class="font-headline-xl text-headline-lg-mobile md:text-headline-xl text-on-surface">
+                            Hi, I'm <span class="gradient-text">Sneha</span>
+</h1>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface-variant">
+                            Web Developer
+                        </h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-lg leading-relaxed">
+                        I build exceptional digital experiences that are fast, accessible, and visually appealing. Let's create something amazing together.
+                    </p>
+<div class="flex flex-wrap items-center gap-4 mt-4">
+<a class="gradient-bg text-white px-8 py-3 rounded-full font-label-sm text-label-sm font-bold shadow-lg shadow-primary-container/20 hover:shadow-primary-container/40 transition-all duration-300 transform hover:-translate-y-1" href="contact.html">
+                            Hire Me
+                        </a>
+<a class="border border-outline-variant bg-transparent text-primary hover:bg-primary/5 px-8 py-3 rounded-full font-label-sm text-label-sm font-bold transition-all duration-300" href="project.html">
+                            View Work
+                        </a>
+</div>
+<!-- Social Icons -->
+<div class="flex items-center gap-4 mt-8">
+<a class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-variant transition-all duration-300" href="https://github.com/snehayadav817704">
+<span class="material-symbols-outlined">code</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-variant transition-all duration-300" href="https://www.linkedin.com/in/sneha-yadav-26b511360/">
+<span class="material-symbols-outlined">work</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-variant transition-all duration-300" href="mailto:snehayadav36781@gmail.com">
+<span class="material-symbols-outlined">alternate_email</span>
+</a>
+</div>
+</div>
+<!-- Profile Image Area -->
+<div class="w-full md:w-1/2 flex justify-center md:justify-end relative z-0">
+<!-- Decorative background elements -->
+<div class="absolute w-[300px] h-[300px] md:w-[500px] md:h-[500px] bg-primary/10 rounded-full blur-3xl -z-10 mix-blend-screen"></div>
+<div class="absolute w-[200px] h-[200px] md:w-[400px] md:h-[400px] bg-secondary/10 rounded-full blur-3xl -z-10 bottom-0 right-0 mix-blend-screen"></div>
+<div class="relative w-[280px] h-[280px] md:w-[450px] md:h-[450px] rounded-full overflow-hidden border-2 border-outline-variant/30 shadow-2xl">
+<img alt="Profile Image" class="w-full h-full object-cover object-center" data-alt="A professional headshot of a female web developer looking directly at the camera with a confident smile. The setting is a modern, dimly lit home office with subtle neon blue and purple backlighting hinting at a technical environment. The aesthetic is modern corporate mixed with developer-centric minimalism. High quality, sharp focus, capturing a sense of reliability and digital mastery." src="image.png">
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full py-base bg-surface-container-lowest dark:bg-surface-container-lowest border-t border-outline-variant flat no shadows">
+<div class="flex flex-col md:flex-row justify-between items-center gap-gutter px-margin-mobile md:px-margin-desktop py-12 max-w-container-max-width mx-auto">
+
+<div class="flex gap-6 mb-4 md:mb-0">
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100 font-label-sm text-label-sm flex items-center" href="https://github.com/snehayadav817704"><span class="material-symbols-outlined mr-2 text-[18px]">code</span>GitHub</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100 font-label-sm text-label-sm flex items-center" href="https://www.linkedin.com/in/sneha-yadav-26b511360/"><span class="material-symbols-outlined mr-2 text-[18px]">work</span>LinkedIn</a>
+
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100 font-label-sm text-label-sm flex items-center" href="mailto:snehayadav36781@gmail.com"><span class="material-symbols-outlined mr-2 text-[18px]">mail</span>Email</a>
+</div>
+<div class="font-body-md text-body-md text-on-surface-variant">
+                © 2026 Sneha Yadav. Crafted with creativity and code.
+            </div>
+</div>
+</footer>
+
+
+</body></html>
